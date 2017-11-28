@@ -1,13 +1,133 @@
+
+.container {
+    background: url("../images/asanoha-400px.png");
+}
+
+#header {
+    background-color: #4aaaa5;
+}
+
+.content-area {
+    background-color: #4aaaa5;
+}
+
+
+#Gameheader {
+    width: 400px;
+    background-color: mediumpurple;
+    color: beige;
+    font-family: "Helvetica Neue";
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    padding: 1em;
+    float: left;
+}
+
+
+.instructions {
+    width: 960px;
+    display: inline-block;
+    background-color: #4aaaa5;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    padding: 1em;
+    color: white;
+    font-size: 25px;
+}
+
+#result {
+    font-weight: normal;
+    color: floralwhite;
+    font-family: "Helvetica Neue";
+    align: center;
+    font-size: 20px;
+    background-color: lightgreen;
+    width: 150px;
+    height: 30px;
+    padding: 2em;
+}
+
 .crystal-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .crystal {
     border: 1px solid purple;
     height: 100px;
     width: 100px;
-    border-radius: 3px;
+    border-radius: 6px;
 }
+
+h1 {
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#score {
+    color: indianred;
+    font-family: "Helvetica Neue";
+    align: center;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #6ea3da;
+    width: 150px;
+    height: 30px;
+    padding: 2em;
+}
+
+#wins {
+    background-color: lightcoral;
+    color: floralwhite;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: normal;
+    width: 550px;
+    padding: 1em;
+    border-color: lightgrey;
+}
+
+#losses {
+    background-color: lightcoral;
+    color: floralwhite;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: normal;
+    width: 550px;
+    padding: 1em;
+    border-color: lightgray;
+
+}
+
+.crystal-container :nth-child(1) {
+     background: url("../images/amethyst.png");
+     background-size: 190px;
+     background-position: center;
+ }
+
+.crystal-container :nth-child(2) {
+    background: url("../images/Alexandrite.png");
+    background-size: 125px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.crystal-container :nth-child(3) {
+    background: url("../images/gem_png_by_doloresdevelde-d57oyqr.png");
+    background-size: 85px;
+    background-position: center;
+}
+
+.crystal-container :nth-child(4) {
+    background: url("../images/gem_png_by_doloresdevelde-d57oz0e.png");
+    background-size: 125px;
+    background-position: center;
+}
+
+
+
 
