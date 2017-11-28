@@ -27,7 +27,7 @@ for (var i = 0; i < 4; i++) {
         "data-random": random
     });
 
-    crystal.html(random);
+    // crystal.html(random);
 
     $(".crystal-container").append(crystal);
 
